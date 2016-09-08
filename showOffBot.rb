@@ -12,7 +12,7 @@ end
 def run(client)
   retweetKeyword = "#Mansplaining"
   while true
-    re = client.search(retweetKeyword).first.id
+    re = client.search(retweetKeyword).first.id;
     client.retweet(re);
     puts "Retweet: #{re} #{Time.now}";
     sleep(90); #Every 90 seconds

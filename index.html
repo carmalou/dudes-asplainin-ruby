@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Tale of Two Twitterbots</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -14,12 +14,16 @@
         font-weight: normal;
       }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .inverse {
+        background: #272822;
+        color: #9b9c96;
+      }
     </style>
   </head>
   <body>
     <textarea id="source">
 
-class: center, middle
+class: center, middle, inverse
 
 # A tale of two twitterbots
 
@@ -35,9 +39,47 @@ class: center, middle, inverse
 ## Twitter: [@carmalou](https://twitter.com/carmalou)
 ## Blog: [carmalou.com](http://carmalou.com)
 ---
+class: center, middle, inverse
+
+# 80s Movies Bot
+---
+class: left, middle, inverse
+
+# - JavaScript/Node
+# - Twit module
+
+---
+class: center, middle, inverse
+
+# Dudes Asplainin'
+
+---
+class: left, middle, inverse
+
+# - Ruby
+# - twitter gem
+
+---
+class: center, middle, inverse
+
+# Weird differences I noticed
+
+---
+class: left, middle, inverse
+
+# - JS has brackets, Ruby does not
+# - Ruby uses `end`
+# - Semicolons are optional(?)
+# - Weird pipe thing
+---
+class: center, middle, inverse
+
+```
+client = Twitter::REST::Client.new do |config|
+```
 
 
-# Introduction
+</blockquote>
 
     </textarea>
     <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
